@@ -44,6 +44,7 @@
     color: white;
     font-size: 24px;
     margin: 10px 0px 10px 20px;
+    font-family: Jost500;
 }
 
 .user_card:hover{
