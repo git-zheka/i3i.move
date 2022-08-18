@@ -6,6 +6,8 @@
 }
 
 
+
+
 body {
     background: #222222;
     overflow-x: hidden;
@@ -46,7 +48,6 @@ li {
 header {
     display: flex;
     padding: 10% 10%;
-    border: solid red 5px;
 }
 
 .head-conteiner {
@@ -93,3 +94,46 @@ header {
 
 
 /*  */
+
+
+
+
+.box {
+    display: flex;
+    background-color:#2A2A2A;
+    color:#ffffff;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.box-name {
+     padding-bottom: 30%;
+}
+
+.box-btn {
+    padding: 5px 10px;
+    background-color: #FD5C70;
+    border: #FD5C70 solid 1px;
+    color: #ffffff;
+    margin-top: 10%;
+}
+
+.img-offer {
+    width: 80%;
+}
+
+.conteiner {
+    display: block;
+    background-color: red;
+    padding: 50px 80px;
+    
+}
+
+.box-offer {
+
+}
+
+.in-container1 {
+    display: flex;
+    margin-top: 10px;
+}
