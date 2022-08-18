@@ -276,8 +276,8 @@
     <div class="ReviewsContainer">  
     <div class="paragraf"><h1>Відгуки</h1></div> 
 
-        <!-- <div class="ReviewsScroll"> -->
-            <div class="Reviews">
+        <div class="ReviewsScroll">
+            <div class="Reviews firstReview">
                 <div class="Name">Анна</div>
                 <div class="ReviewsText">Задоволена якістю надання послуг !!! </div>
             </div>
@@ -286,14 +286,63 @@
                 <div class="Name"> Андрій </div>
                 <div class="ReviewsText">При переїзді побилося одне горнятко(</div>
             </div>
-        <!-- </div> -->
 
+            <div class="Reviews">
+                <div class="Name"> Андрій </div>
+                <div class="ReviewsText">При переїзді побилося одне горнятко(</div>
+            </div>
 
+            <div class="Reviews">
+                <div class="Name"> Андрій </div>
+                <div class="ReviewsText">При переїзді побилося одне горнятко(</div>
+            </div>
 
+            <div class="Reviews lastReview">
+                <div class="Name">Анна</div>
+                <div class="ReviewsText">Задоволена якістю надання послуг !!! </div>
+            </div>
+        </div>
 
+        <div class="WriteName">
+            <p>Напишіть свій відгук</p> 
+            <p1>Ім'я</p1> 
+            <input class="ReviewsWriteName" type="text">
 
+            
+        </div>
+        
 
+        <textarea id="textarea" name="w3review" rows="4" cols="50" width="125px"></textarea> 
+        <button class="SaveReviews" onClick="Save()">Зберегти</button>
 
+    </div>
+
+<div class="paragraf top"><h1>Ми вам зателефонуємо</h1></div>
+    <div class="massege">
+        
+        <div class="forms_send">
+            
+            <div class="send">
+                <h1>Ім'я</h1>
+            </div>
+
+            <input type="text1" placeholder="Женя">
+            
+            <div class="send">
+                <h1>Номер</h1>
+            </div>
+            
+            <input type="tel" placeholder="+380981010101">
+            
+            <div class="botton_send">         
+                Надіслати
+            </div>
+        
+        </div>
+
+        <div class="icon">
+            <img src="img/Планшет.svg">
+        </div>
     </div>
 
     <footer>
@@ -320,17 +369,17 @@
             </div>
         </div>
         <div class="footer_smm">
-            <div class="smm_footer_elem"><a href="https://www.instagram.com/i3i.move/" class="fa fa-instagram"></a>Instagram
+            <div class="smm_footer_elem"><a href="https://www.instagram.com/i3i.move/" class="fa fa-instagram"></a> Instagram
             </div>
-            <div class="smm_footer_elem"><a href="https://t.me/i3i_move_channel" class="fa fa-telegram"></a>Telegram
+            <div class="smm_footer_elem"><a href="https://t.me/i3i_move_channel" class="fa fa-telegram"></a> Telegram
             </div>
-            <div class="smm_footer_elem"><a href="#" class="fa fa-facebook"></a>Facebook
+            <div class="smm_footer_elem"><a href="#" class="fa fa-facebook"></a> Facebook
             </div>
-            <div class="smm_footer_elem"><a href="https://www.youtube.com/channel/UCDz_pjEJo9XMQ8KtSYV2nAA" class="fa fa-youtube"></a>Youtube
+            <div class="smm_footer_elem"><a href="https://www.youtube.com/channel/UCDz_pjEJo9XMQ8KtSYV2nAA" class="fa fa-youtube"></a> Youtube
             </div>
         </div>
     </footer>
-
+    <script src="js/ReviewScript.js"></script>
     <script src="js/jquery-3.6.0.js"></script>  
     <script src="js/jquery-3.6.0.min.js"></script>    
     <script src="js/script.js"></script>
