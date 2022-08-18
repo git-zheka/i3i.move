@@ -44,7 +44,7 @@ header {
 
 .head-conteiner h1{
     color: #ffffff;
-    font-size: 70px;
+    font-size: 65px;
 }
 
 
@@ -53,9 +53,9 @@ header {
     font-size: 30px;
 }
 
-
-.header-img {
-    padding: 0% 10%;
-    width: 30vw;
-    height: 30vh;
+.btn1-header {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #6665B1;
 }
