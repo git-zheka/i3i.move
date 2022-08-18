@@ -3,7 +3,10 @@
 
 <head>      
             <link rel="stylesheet" href="media-qualis.css" type="text/css">
-            <link rel="stylesheet" href="style.css" type="text/css">
+            <link rel="stylesheet" href="style/style.css" type="text/css">
+            <link rel="stylesheet" href="style/carousel.css" type="text/css">
+            <link rel="stylesheet" href="style/StyleServices.css" type="text/css">
+            <link rel="stylesheet" href="style/Reviews.css" type="text/css">
             
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initian-scale=1">
@@ -19,9 +22,8 @@
 <body>
  <img src="img/LOGO.svg" class="LOGO">
     <div class="menu">
-   
         <ul>
-            <a href="#"><li>Послуги</li></a>
+            <a href="#Poslugi"><li>Послуги</li></a>
             <a href="#"><li>Договори</li></a>
             <a href="#"><li>Навчальні матеріали</li></a>
             <a href="#"><li>Контакти</li></a>
@@ -53,26 +55,251 @@
    
     <!-- <img src="img/EllipsePurople.svg" class="elips">  -->
     
-   <div class="Poslugi">
+   <div class="Poslugi" id="Poslugi">
 
-        <div class="paragraf"><h1>Наші послуги</h1></div> 
+    <div class="paragraf"><h1>Наші послуги</h1></div> 
 
-        <div class="box">
-            <div class="box-offer">
-                <div class="box-name"></div>
-                <button class="box-btn">Замовити</button>
-                <button class="box-btn">Детальніше</button>
-            </div>
+
+    <div class="conteiner">
+
+        <div class="in-container1">
             
-            <div class="offer-icon">
-                <img class="" src="">
+             <div class="box">
+                <div class="box-offer">
+                    <div class="box-name"><h3>Вантажне перевезення речей та меблів</h3></div>
+                    <div class="btn">
+                        <button class="box-btn">Замовити</button><br>
+                        <button class="box-btn">Детальніше</button>
+                    </div>
+
+                </div>
+                
+                <div class="offer-icon">
+                    <img class="img-offer" id="icon1" src="img/Машина.svg">
+                </div>
+            </div>  
+
+             <div class="box">
+                <div class="box-offer">
+                    <div class="box-name"><h3>Договори, юридична консультація</h3></div>
+                    <div class="btn">
+                        <button class="box-btn">Замовити</button><br>
+                        <button class="box-btn">Детальніше</button> 
+                    </div>
+
+                </div>
+                
+                <div class="offer-icon">
+                    <img class="img-offer" id="icon2" src="img/LIST.svg">
+                </div>
+            </div>
+        
+        
+            <div class="box">
+                <div class="box-offer">
+                    <div class="box-name"><h3>Ремонт сантехніки та електрики</h3></div>
+                    <div class="btn">
+                        <button class="box-btn">Замовити</button><br>
+                        <button class="box-btn">Детальніше</button>
+                    </div>
+
+                </div>
+                
+                <div class="offer-icon">
+                    <img class="img-offer" id="icon3" src="img/Вогонь.svg">
+                </div>
+            </div>
+        
+        </div>
+       
+        <div class="in-container1">
+            <div class="box">
+                <div class="box-offer">
+                    <div class="box-name"><h3>Ремонт меблів</h3></div>
+                    <div class="btn">
+                        <button class="box-btn">Замовити</button><br>
+                        <button class="box-btn">Детальніше</button>  
+                    </div>
+ 
+                </div>
+                
+                <div class="offer-icon">
+                    <img class="img-offer" id="icon4" src="img/Крісло.svg">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-offer">
+                    <div class="box-name"><h3> Косметичний ремон</h3></div>
+                    <div class="btn">
+                        <button class="box-btn">Замовити</button><br>
+                        <button class="box-btn">Детальніше</button>
+                    </div>
+
+                </div>
+                
+                <div class="offer-icon">
+                    <img class="img-offer" id="icon5" src="img/Шпатель.svg">
+                </div>
+            </div>
+        
+        
+         
+            
+            <div class="box">
+                <div class="box-offer">
+                    <div class="box-name"><h3>Оцінка збитку</h3></div>
+                    <div class="btn" id="btn">
+                        <button class="box-btn">Замовити</button><br>
+                        <button class="box-btn">Детальніше</button>
+                    </div>
+                </div>
+                
+                <div class="offer-icon">
+                    <img class="img-offer" id="icon6" src="img/Оцінка збитку.svg">
+                </div>
             </div>
         </div>
-    
+         
     </div>
 
-   
+    <div class="paragraf"><h1>Про нас</h1></div> 
 
+<div class = "team_container">
+        <div class = "carousel_arrow_left"><</div>
+        <div class="team_carousel">
+            <div class="user_card">
+                <img class="user_pic" src="img/team/papik.jpg" >
+                <p class="user_card_line">Євген</p>
+                <p class="user_card_line">Девелопер</p>
+                <p class="user_card_line">Дизайнер</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/diana.jpg" >
+                <p class="user_card_line">Діана</p>
+                <p class="user_card_line">Фотограф</p>
+                <p class="user_card_line">SMM</p>
+
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/vadim.jpg" >
+                <p class="user_card_line">Вадим</p>
+                <p class="user_card_line">Фотограф</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/maks.jpg" >
+                <p class="user_card_line">Максим</p>
+                <p class="user_card_line">Аналіз конкурентів</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/murchik.jpg" >
+                <p class="user_card_line">Назар</p>
+                <p class="user_card_line">HTML/CSS</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/bogdan.jpg" >
+                <p class="user_card_line">Богдан</p>
+                <p class="user_card_line">Дизайнер</p>
+                <p class="user_card_line">Монтаж відео</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/daria.jpg" >
+                <p class="user_card_line">Дарія</p>
+                <p class="user_card_line">Сценарист</p>
+                <p class="user_card_line">Перекладач</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/solomia.jpg" >
+                <p class="user_card_line">Соломія</p>
+                <p class="user_card_line">SMM</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/nastya.jpg" >
+                <p class="user_card_line">Настя </p>
+                <p class="user_card_line">Літописець</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/inna.jpg" >
+                <p class="user_card_line">Інна</p>
+                <p class="user_card_line">SMM</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/kim.jpg" >
+                <p class="user_card_line">Даніїл</p>
+                <p class="user_card_line">Дизайнер</p>
+                <p class="user_card_line">Монтажер</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/oxxy.jpg" >
+                <p class="user_card_line">Мирон</p>
+                <p class="user_card_line">GPJ</p>
+                <p class="user_card_line">Талісман</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/andew.jpg" >
+                <p class="user_card_line">Андрій</p>
+                <p class="user_card_line">Ментор</p>
+                <p class="user_card_line">Вожатий</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/sofia.jpg" >
+                <p class="user_card_line">Софія</p>
+                <p class="user_card_line">Вожата</p>
+                <p class="user_card_line">Рішала</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/dementor.jpg" >
+                <p class="user_card_line">Владислав</p>
+                <p class="user_card_line">Дементор</p>
+                <p class="user_card_line">Вожатий</p>
+            </div>
+            <div class="user_card">
+
+
+<img class="user_pic" src="img/team/artem.jpg" >
+                <p class="user_card_line">Артем</p>
+                <p class="user_card_line">Аналіз конкурентів</p>
+            </div>
+            <div class="user_card">
+                <img class="user_pic" src="img/team/mark.jpg" >
+                <p class="user_card_line">Маркіян</p>
+                <p class="user_card_line">Вожатий</p>
+                <p class="user_card_line">Девелопер</p>
+            </div>
+        </div>
+        <div class = "carousel_arrow_right">></div>
+    </div>
+
+    
+    
+    <div class="ReviewsContainer">  
+    <div class="paragraf"><h1>Відгуки</h1></div> 
+
+        <!-- <div class="ReviewsScroll"> -->
+            <div class="Reviews">
+                <div class="Name">Анна</div>
+                <div class="ReviewsText">Задоволена якістю надання послуг !!! </div>
+            </div>
+
+            <div class="Reviews">
+                <div class="Name"> Андрій </div>
+                <div class="ReviewsText">При переїзді побилося одне горнятко(</div>
+            </div>
+        <!-- </div> -->
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <script src="js/jquery-3.6.0.js"></script>  
+    <script src="js/jquery-3.6.0.min.js"></script>    
+    <script src="js/script.js"></script>
 </body>
 </html>
 
