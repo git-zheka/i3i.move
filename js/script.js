@@ -11,3 +11,8 @@ $('.carousel_arrow_left').click(function() {
      scrollLeft: "+=775px"
     }, "slow");
   });
+
+  $(".smm_footer_elem").click(function(){
+    let url = $(this).find("a").attr("href");
+    window.location.replace(url);
+  });

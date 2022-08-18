@@ -5,6 +5,7 @@
             <link rel="stylesheet" href="media-qualis.css" type="text/css">
             <link rel="stylesheet" href="style/style.css" type="text/css">
             <link rel="stylesheet" href="style/carousel.css" type="text/css">
+            <link rel="stylesheet" href="style/footer.css" type="text/css">
             <link rel="stylesheet" href="style/StyleServices.css" type="text/css">
             <link rel="stylesheet" href="style/Reviews.css" type="text/css">
             
@@ -275,8 +276,8 @@
     <div class="ReviewsContainer">  
     <div class="paragraf"><h1>Відгуки</h1></div> 
 
-        <!-- <div class="ReviewsScroll"> -->
-            <div class="Reviews">
+        <div class="ReviewsScroll">
+            <div class="Reviews firstReview">
                 <div class="Name">Анна</div>
                 <div class="ReviewsText">Задоволена якістю надання послуг !!! </div>
             </div>
@@ -285,18 +286,100 @@
                 <div class="Name"> Андрій </div>
                 <div class="ReviewsText">При переїзді побилося одне горнятко(</div>
             </div>
-        <!-- </div> -->
 
+            <div class="Reviews">
+                <div class="Name"> Андрій </div>
+                <div class="ReviewsText">При переїзді побилося одне горнятко(</div>
+            </div>
 
+            <div class="Reviews">
+                <div class="Name"> Андрій </div>
+                <div class="ReviewsText">При переїзді побилося одне горнятко(</div>
+            </div>
 
+            <div class="Reviews lastReview">
+                <div class="Name">Анна</div>
+                <div class="ReviewsText">Задоволена якістю надання послуг !!! </div>
+            </div>
+        </div>
 
+        <div class="WriteName">
+            <p>Напишіть свій відгук</p> 
+            <p1>Ім'я</p1> 
+            <input class="ReviewsWriteName" type="text">
 
+            
+        </div>
+        
 
+        <textarea id="textarea" name="w3review" rows="4" cols="50" width="125px"></textarea> 
+        <button class="SaveReviews" onClick="Save()">Зберегти</button>
 
     </div>
 
+<div class="paragraf top"><h1>Ми вам зателефонуємо</h1></div>
+    <div class="massege">
+        
+        <div class="forms_send">
+            
+            <div class="send">
+                <h1>Ім'я</h1>
+            </div>
 
+            <input type="text1" placeholder="Женя">
+            
+            <div class="send">
+                <h1>Номер</h1>
+            </div>
+            
+            <input type="tel" placeholder="+380981010101">
+            
+            <div class="botton_send">         
+                Надіслати
+            </div>
+        
+        </div>
 
+        <div class="icon">
+            <img src="img/Планшет.svg">
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_menu">
+            <div class="map_footer">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1485.8359830695802!2d23.87027343283714!3d49.15307683094548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473a135c1a3e7c17%3A0x2c7e409845313a8c!2z0JTQvdGW0YHRgtC10YA!5e0!3m2!1suk!2sua!4v1660851523338!5m2!1suk!2sua" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact_footer">
+                <p class="footer_header">Контакти:</p>
+                <p class="footer_contact_line">м . Львів, Вул. Чорнобаївка 23</p>
+                <p class="footer_contact_line">Тел: +380981181346</p>
+                <p class="footer_contact_line">Email: i3i.movi2022@gmail.com
+                </p>
+            </div>
+            <div class="nav_footer">
+                <p class="footer_header footer_nav_header">Навігація:</p>
+                <ul class="footer_nav_ul">
+                    <a href="#"><li class="footer_nav_li">Договори</li></a>
+                    <a href="#"><li class="footer_nav_li">Навчальні матеріали</li></a>
+                    <a href="#"><li class="footer_nav_li">Контакти</li></a>
+                    <a href="#"><li class="footer_nav_li">Відгуки</li></a>
+                    <a href="#"><li class="footer_nav_li">Про нас</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_smm">
+            <div class="smm_footer_elem"><a href="https://www.instagram.com/i3i.move/" class="fa fa-instagram"></a> Instagram
+            </div>
+            <div class="smm_footer_elem"><a href="https://t.me/i3i_move_channel" class="fa fa-telegram"></a> Telegram
+            </div>
+            <div class="smm_footer_elem"><a href="#" class="fa fa-facebook"></a> Facebook
+            </div>
+            <div class="smm_footer_elem"><a href="https://www.youtube.com/channel/UCDz_pjEJo9XMQ8KtSYV2nAA" class="fa fa-youtube"></a> Youtube
+            </div>
+        </div>
+    </footer>
+    <script src="js/ReviewScript.js"></script>
     <script src="js/jquery-3.6.0.js"></script>  
     <script src="js/jquery-3.6.0.min.js"></script>    
     <script src="js/script.js"></script>
