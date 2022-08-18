@@ -46,6 +46,7 @@ li {
 header {
     display: flex;
     padding: 10% 10%;
+    border: solid red 5px;
 }
 
 .head-conteiner {
@@ -88,3 +89,7 @@ header {
     left: 60%;
     top: 20%;
 }
+
+
+
+/*  */
