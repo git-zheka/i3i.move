@@ -11,3 +11,4 @@ $('.carousel_arrow_left').click(function() {
      scrollLeft: "+=775px"
     }, "slow");
   });
+

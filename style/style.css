@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Jost500;
-    src: url(fonts/Jost500.otf);
+    font-family: Jost;
+    src: url(fonts/Jost.ttf);
   }
   
   @font-face {
@@ -14,6 +14,7 @@
     text-decoration: none;
     list-style-type: none;
     scroll-behavior: smooth;
+    font-family: Jost;
 }
 
 
