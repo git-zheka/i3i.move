@@ -1,16 +1,41 @@
 
 .team_container{
     display: flex;
-    height: 300px;
+    height: 450px;
     background-color: grey;
     justify-content:space-between;
 }
 
 .carousel_arrow_left, .carousel_arrow_right{
-    width: 150px;
+    width: 100px;
     height: initial;
     text-align: center;
     vertical-align: middle;
     font-size: 100px;
-    padding-top: 5.5%;
+    padding-top: 7.5%;
+}
+
+.user_card{
+    background-color: #2A2A2A;
+    width: 250px;
+    height: 400px;
+    margin: 0px 30px;
+}
+
+.user_pic{
+    width: 250px;
+    height: 250px;
+}
+
+.team_carousel{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.user_card_line{
+    color: white;
+    font-size: 24px;
+    margin: 10px 0px 10px 20px;
+
 }
