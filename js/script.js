@@ -17,6 +17,7 @@ $('.carousel_arrow_left').click(function() {
     window.location.replace(url);
   });
 
+
   $(".botton_send").click(function(){
     let tel = $('input[type=tel]').val();
     let name = $('input[type=text1]').val();
@@ -32,4 +33,5 @@ $('.carousel_arrow_left').click(function() {
         alert('Дякуєм за звернення, наш менеджер незабаром вам затедефонує!');
       }
     });
-});
+  });
+

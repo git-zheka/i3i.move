@@ -10,6 +10,5 @@ function Save() {
 </div>`;
 
 $(".firstReview").before(newReview);
-$(".lastReview").after(newReview);
 
 };
