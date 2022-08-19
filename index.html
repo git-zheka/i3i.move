@@ -8,7 +8,8 @@
             <link rel="stylesheet" href="style/footer.css" type="text/css">
             <link rel="stylesheet" href="style/StyleServices.css" type="text/css">
             <link rel="stylesheet" href="style/Reviews.css" type="text/css">
-            
+            <link rel="stylesheet" href="style/Call.css" type="text/css">
+
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initian-scale=1">
             <script src="https://kit.fontawesome.com/136bc1a7c2.js"></script>
@@ -21,14 +22,21 @@
 </head>
     
 <body>
- <img src="img/LOGO.svg" class="LOGO">
+
+    <img class="elips1" src="img/EllipsePurople.svg">
+    <img class="elips2" src="img/Ellipse2.svg">
+    <img class="elips3" src="img/Ellipse3.svg">
+    <img class="elips4" src="img/Ellipse4.svg">
+    <img class="elips5" src="img/Ellipse5.svg">
+
+    <img src="img/LOGO.svg" class="LOGO">
     <div class="menu">
         <ul>
             <a href="#Poslugi"><li>Послуги</li></a>
-            <a href="#"><li>Договори</li></a>
-            <a href="#"><li>Навчальні матеріали</li></a>
-            <a href="#"><li>Контакти</li></a>
-            <a href="#"><li>Відгуки</li></a>
+            <a href="Contract.html"><li>Договори</li></a>
+            <a href="Study.html"><li>Навчальні матеріали</li></a>
+            <a href="#footer"><li>Контакти</li></a>
+            <a href="#ReviewsContainer"><li>Відгуки</li></a>
         </ul>
     </div>
     
@@ -40,8 +48,8 @@
             <h3>Наш продукт - безпечний переїзд</h3>
         
             <div class="button">
-                <button class="btn1-header">Наші послуги</button>
-                <button class="btn1-header">Замовити послугу</button>
+                <button class="btn1-header" type="button" onclick="location.href='#Poslugi';">Наші послуги</button>
+                <button class="btn1-header" type="button" onclick="location.href='#forms';">Замовити послугу</button>
             </div>
         </div>
 
@@ -49,9 +57,6 @@
         <div class="header-img">
             <img src="img/image 20.svg">
         </div>
-
-   
-
     </header>
    
     <!-- <img src="img/EllipsePurople.svg" class="elips">  -->
@@ -69,7 +74,7 @@
                 <div class="box-offer">
                     <div class="box-name"><h3>Вантажне перевезення речей та меблів</h3></div>
                     <div class="btn">
-                        <button class="box-btn">Замовити</button><br>
+                        <button class="box-btn" type="button" onclick="location.href='#forms';">Замовити</button><br>
                         <button class="box-btn">Детальніше</button>
                     </div>
 
@@ -84,7 +89,7 @@
                 <div class="box-offer">
                     <div class="box-name"><h3>Договори, юридична консультація</h3></div>
                     <div class="btn">
-                        <button class="box-btn">Замовити</button><br>
+                        <button class="box-btn" onclick="location.href='#forms';">Замовити</button><br>
                         <button class="box-btn">Детальніше</button> 
                     </div>
 
@@ -100,7 +105,7 @@
                 <div class="box-offer">
                     <div class="box-name"><h3>Ремонт сантехніки та електрики</h3></div>
                     <div class="btn">
-                        <button class="box-btn">Замовити</button><br>
+                        <button class="box-btn" onclick="location.href='#forms';">Замовити</button><br>
                         <button class="box-btn">Детальніше</button>
                     </div>
 
@@ -118,7 +123,7 @@
                 <div class="box-offer">
                     <div class="box-name"><h3>Ремонт меблів</h3></div>
                     <div class="btn">
-                        <button class="box-btn">Замовити</button><br>
+                        <button class="box-btn" onclick="location.href='#forms';">Замовити</button><br>
                         <button class="box-btn">Детальніше</button>  
                     </div>
  
@@ -133,7 +138,7 @@
                 <div class="box-offer">
                     <div class="box-name"><h3> Косметичний ремон</h3></div>
                     <div class="btn">
-                        <button class="box-btn">Замовити</button><br>
+                        <button class="box-btn" onclick="location.href='#forms';">Замовити</button><br>
                         <button class="box-btn">Детальніше</button>
                     </div>
 
@@ -151,7 +156,7 @@
                 <div class="box-offer">
                     <div class="box-name"><h3>Оцінка збитку</h3></div>
                     <div class="btn" id="btn">
-                        <button class="box-btn">Замовити</button><br>
+                        <button class="box-btn" onclick="location.href='#forms';">Замовити</button><br>
                         <button class="box-btn">Детальніше</button>
                     </div>
                 </div>
@@ -165,6 +170,10 @@
     </div>
 
     <div class="paragraf"><h1>Про нас</h1></div> 
+
+    <h3 class="AboutasText">
+        ІЗI Move - компанія, яка допомага з заїздом та виїдом орендованих квартир та офосів
+    </h3>
 
 <div class = "team_container">
         <div class = "carousel_arrow_left"><</div>
@@ -273,7 +282,7 @@
 
     
     
-    <div class="ReviewsContainer">  
+    <div class="ReviewsContainer" id="ReviewsContainer">  
     <div class="paragraf"><h1>Відгуки</h1></div> 
 
         <div class="ReviewsScroll">
@@ -320,7 +329,7 @@
 <div class="paragraf top"><h1>Ми вам зателефонуємо</h1></div>
     <div class="massege">
         
-        <div class="forms_send">
+        <div class="forms_send" id="forms">
             
             <div class="send">
                 <h1>Ім'я</h1>
@@ -345,8 +354,11 @@
         </div>
     </div>
 
+
+
+
     <footer>
-        <div class="footer_menu">
+        <div class="footer_menu" id="footer">
             <div class="map_footer">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1485.8359830695802!2d23.87027343283714!3d49.15307683094548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473a135c1a3e7c17%3A0x2c7e409845313a8c!2z0JTQvdGW0YHRgtC10YA!5e0!3m2!1suk!2sua!4v1660851523338!5m2!1suk!2sua" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -368,7 +380,7 @@
                 </ul>
             </div>
         </div>
-        <div class="footer_smm">
+        <div class="footer_smm" >
             <div class="smm_footer_elem"><a href="https://www.instagram.com/i3i.move/" class="fa fa-instagram"></a> Instagram
             </div>
             <div class="smm_footer_elem"><a href="https://t.me/i3i_move_channel" class="fa fa-telegram"></a> Telegram

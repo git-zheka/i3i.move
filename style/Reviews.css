@@ -4,7 +4,7 @@
     overflow-y: scroll;
     margin-left: 8%;
     margin-top: 4%;
-    overflow: hidden;
+    overflow-y: scroll;
 }
 
 
@@ -84,76 +84,3 @@
     margin: 1% 7.8%;
   }
 
-
-
-  .massege {
-    width: 60%;
-    background-color:#2C2A2A ;
-    display: flex;
-    padding: auto;
-    margin: auto;
-    margin-top: 2%;
-
-}
-
-.top {
-    margin-top: 5%;
-}
-
-.send {
-    color: #FD5C70;
-    font-family:Arial, Helvetica, sans-serif;
-
-}
-
-.forms_send {
-    padding: 50px;
-}
-
-.botton_send {
-    border:4px solid #FD5C70;
-    display: block;
-    padding: 10px;
-    font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-    width: 120px;
-    transition: 0.2s;
-    color: #ffffff;
-    background-color: #FD5C70;
-}
-
-.botton_send:hover {
-    background-color: transparent;
-    color: #ffffff;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-
-input[type=tel] {
-    margin: 20px 0px;
-    height: 30px;
-    font-size: 20px;
-    border: #FD5C70 solid 4px;
-    background: none;
-    padding: 10px;
-    color: #ffffff;
-}
-
-.icon img {
-    position: absolute;
-    width: 20%;
-    left:50%;
-    margin: -30px 10px;
-}
-
-input[type=text1] {
-    margin: 20px 0px;
-    height: 30px;
-    font-size: 20px;
-    border: #FD5C70 solid 4px;
-    background: none;
-    padding: 10px;
-    color: #ffffff;
-}
