@@ -85,3 +85,8 @@
     top: 10px;
     left: 80px;
 }
+
+.box-btn:hover {
+    color: #FD5C70;
+    background: none;
+}
