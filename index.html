@@ -29,8 +29,10 @@
     <img class="elips4" src="img/Ellipse4.svg">
     <img class="elips5" src="img/Ellipse5.svg">
 
+    <a href="#menu"><img class="strilka" src="img/Стрілка.svg"></a> 
+
     <img src="img/LOGO.svg" class="LOGO">
-    <div class="menu">
+    <div class="menu" id="menu">
         <ul>
             <a href="#Poslugi"><li>Послуги</li></a>
             <a href="Contract.html"><li>Договори</li></a>
@@ -78,7 +80,7 @@
                         <button class="box-btn btn-hover">Детальніше
                             <div class="details">
                                 <p2>
-                                    При виїзді спецеаліста він оцінює вартість збитків, та порівнює їх з вартістю, яку поставив орендатор
+                                    Доставка кур'єрськими службами дозволить Вам своє замовлення на будь-якому відділенні в вашому місті , а також замовити доставку кур'єрськими службами до дверей вашого будинку
                                 </p2>
                             </div>
                         </button><br>
@@ -87,8 +89,6 @@
                     
                     
                 </div>
-
-
                 
                 <div class="offer-icon">
                     <img class="img-offer" id="icon1" src="img/Машина.svg">
@@ -99,7 +99,13 @@
                 <div class="box-offer">
                     <div class="box-name"><h3>Договори, юридична консультація</h3></div>
                     <div class="btn">
-                        <button class="box-btn">Детальніше</button><br>
+                        <button class="box-btn btn-hover">Детальніше
+                            <div class="details">
+                                <p2>
+                                    Наш адвокат може Вам надати юридичну допомогу в оформленні документів для переїзду/заїзду в орендовану квартиру/офіс та представляти ваші права
+                                </p2>
+                            </div>
+                        </button><br>
                         <button class="box-btn" onclick="location.href='#forms';">Замовити</button>
                     </div>
 
@@ -115,7 +121,13 @@
                 <div class="box-offer">
                     <div class="box-name"><h3>Ремонт сантехніки та електрики</h3></div>
                     <div class="btn">
-                        <button class="box-btn">Детальніше</button><br>                        
+                        <button class="box-btn btn-hover">Детальніше
+                            <div class="details">
+                                <p2>
+                                    Ми надаємо послуги з ремонту електрики та сантехніки, якщо вони виникли з переїздом/заїздом в орендовану квартиру
+                                </p2>
+                            </div>
+                        </button><br>                        
                         <button class="box-btn" onclick="location.href='#forms';">Замовити</button>
                     </div>
 
@@ -133,7 +145,13 @@
                 <div class="box-offer">
                     <div class="box-name"><h3>Ремонт меблів</h3></div>
                     <div class="btn">
-                        <button class="box-btn">Детальніше</button><br>                          
+                        <button class="box-btn btn-hover">Детальніше
+                            <div class="details">
+                                <p2>
+                                    Ми можемо надати таку послугу як ремонт меблів в орендованій квартирі
+                                </p2>
+                            </div>
+                        </button><br>                          
                         <button class="box-btn" onclick="location.href='#forms';">Замовити</button>
 
                     </div>
@@ -149,7 +167,16 @@
                 <div class="box-offer">
                     <div class="box-name"><h3> Косметичний ремон</h3></div>
                     <div class="btn">
-                        <button class="box-btn">Детальніше</button><br>
+                        <button class="box-btn btn-hover">Детальніше 
+                            <div class="details">
+                                <p2>
+                                    Будь-які окремі матеріали мають обмежений термін служби. 
+                                    Якими дорогими вони б не були – згодом вони нищаться, 
+                                    втрачають свої первісні властивості та колишній зовнішній вигляд. 
+                                    Ми зможемо Вам з цим допомогти
+                                </p2>
+                            </div>
+                        </button><br>
                         <button class="box-btn" onclick="location.href='#forms';">Замовити</button>
                     </div>
 
@@ -167,7 +194,16 @@
                 <div class="box-offer">
                     <div class="box-name"><h3>Оцінка збитку</h3></div>
                     <div class="btn" id="btn">
-                        <button class="box-btn">Детальніше</button><br>                        
+                        <button class="box-btn btn-hover">Детальніше
+                            <div class="details">
+                                <p2>
+                                     
+Наші фахівці точно визначать розмір завданому майну шкоди, застосовуючи спеціальні 
+методи оцінки та відповідні стандартам. У цьому враховуються як прямі, і непрямі збитки, 
+і навіть чинники, що впливають на вартість майна
+                                </p2>
+                            </div>
+                        </button><br>                        
                         <button class="box-btn" onclick="location.href='#forms';">Замовити</button>
 
                     </div>
@@ -184,7 +220,7 @@
     <div class="paragraf"><h1>Про нас</h1></div> 
 
     <h3 class="AboutasText">
-        ІЗI Move - компанія, яка допомага з заїздом та виїдом орендованих квартир та офосів
+        ІЗI Move - компанія, яка допомагає з заїздом та виїздом з орендованих квартир та офісів
     </h3>
 
 <div class = "team_container">
@@ -384,11 +420,10 @@
             <div class="nav_footer">
                 <p class="footer_header footer_nav_header">Навігація:</p>
                 <ul class="footer_nav_ul">
-                    <a href="#"><li class="footer_nav_li">Договори</li></a>
-                    <a href="#"><li class="footer_nav_li">Навчальні матеріали</li></a>
-                    <a href="#"><li class="footer_nav_li">Контакти</li></a>
-                    <a href="#"><li class="footer_nav_li">Відгуки</li></a>
-                    <a href="#"><li class="footer_nav_li">Про нас</li></a>
+                    <a href="Contract.html"><li class="footer_nav_li">Договори</li></a>
+                    <a href="Study.html"><li class="footer_nav_li">Навчальні матеріали</li></a>
+                    <a href="#ReviewsContainer"><li class="footer_nav_li">Відгуки</li></a>
+                    <!-- <a href="#"><li class="footer_nav_li">Про нас</li></a> -->
                 </ul>
             </div>
         </div>

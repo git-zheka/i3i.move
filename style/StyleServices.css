@@ -39,6 +39,7 @@
     position: relative;
     margin-top: 5px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .img-offer {
@@ -97,21 +98,30 @@
     color: white;
     width: 370px;
     height: 135px;
-    z-index: 1;
     padding: 20px;
-    opacity: 0;
     margin-left: -11px;
     transition: 0.5s;
     text-align: left;
-    margin-top: 0%;
+    display: none;
+    z-index: 1;
 }
 
 
-.btn-hover:hover .details {
-    display:block;
-    transition: 0.5s;
-    margin-top: -169px;
-    opacity: 1;
-    margin-top: -150%;
+.btn-hover:hover  .details {
+    animation: forwards slidein 0.5s;
+    display: block;
 }
+
+
+
+@keyframes slidein {
+    from {
+      
+    }
+  
+    to {
+      margin-top: -169px;
+    }
+  }
+
 
