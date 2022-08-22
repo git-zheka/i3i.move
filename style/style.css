@@ -71,7 +71,11 @@ header {
 }
 
 .header-img {
-    position: relative;}
+    position: relative;
+    margin-top: 6%;
+    margin-left: 5%;
+    width: 100%;
+}
 
 .btn1-header {
     padding: 20px 30px;
@@ -130,7 +134,7 @@ header {
 .elips5 {
     position:absolute;
     top:300%;
-    left: 50%;
+    left: 40%;
     z-index: -99;
     width: 60%;
 }
