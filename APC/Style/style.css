@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Jost;
+    src: url("fonts/Jost.ttf");
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+    font-family: Jost;
+}
+
+body {
+   background: #F3F3F3;
+}
+
+
+/* Головна  */
+
+
+.loginSystem {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+.loginSystem h1 {
+    color: #36BAFE;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.login {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    background-color: #F3F3F3;
+    width: 250px;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 5px 5px 5px 0px #E2E2E2, -5px -5px 5px 0px #FFFFFF;
+    padding: 40px;
+}
+
+.login h3 {
+    color: #36BAFE;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.login p {
+    color:#36BAFE;
+    margin-top: 10px;
+}
+
+.Go {
+    border: none;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 95%;
+    background-color: #36BAFE;
+    font-size: 20px;
+}
+
+input[type=text], input[type=password] {
+    border: 2px #36BAFE solid;
+    border-radius: 10px;
+    padding: 6px;
+    margin-bottom: 10%;
+    width: 90%;
+    color: #36BAFE;
+    font-size: 20px;
+}
+
+/* Меню */
+
+
+.menu {
+    background-color: #36BAFE;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 90%;
+}
+
+.menu img{
+    margin-left: 19px;
+}
+
+
+
+
+/* Послуги */
+
+
+.box-Services {
+    display: block;
+}
+
+
+h1 {
+    color: #36BAFE;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
+.service1 {
+    display: flex;
+    background-color: #F3F3F3;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 5px 5px 5px 0px #E2E2E2, -5px -5px 5px 0px #FFFFFF;
+    margin-top: 5%;
+}
+
+.services-text-btn {
+    color: #36BAFE;
+}
+
+
+.services-text-btn button {
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #36BAFE;
+}
+
+.srv-btn-top {
+    margin-top: 25px;
+}
+
+.srv-btn2-top {
+    margin-top: 10px;
+}
+
+.services-icon {
+    text-align: center;
+    width: 40%;
+    height: auto;
+}
+
+.big-icon-list {
+    width: 200%;
+    margin-left: -35px;
+}
+
+.big-icon-car {
+    width: 200%;
+    margin-left: -55px;
+}
+
+.icon-left {
+    margin-left: 45px;
+}
+
+
+
+/* Профіль */
+
+.Account {
+    display: none;
+}
+
+.info {
+    background-color: #36BAFE;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
