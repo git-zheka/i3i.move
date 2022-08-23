@@ -28,7 +28,7 @@ body {
 }
 
 .loginSystem h1 {
-    color: #36BAFE;
+    color: #208FD3;
     text-align: center;
     margin-top: 30%;
 }
@@ -46,13 +46,13 @@ body {
 }
 
 .login h3 {
-    color: #36BAFE;
+    color: #208FD3;
     float: left;
     margin-bottom: 10px;
 }
 
 .login p {
-    color:#36BAFE;
+    color:#208FD3;
     margin-top: 10px;
 }
 
@@ -62,33 +62,39 @@ body {
     border-radius: 50px;
     padding: 10px 20px;
     width: 95%;
-    background-color: #36BAFE;
+    background-color: #208FD3;
     font-size: 20px;
 }
 
 input[type=text], input[type=password] {
-    border: 2px #36BAFE solid;
+    border: 2px #208FD3 solid;
     border-radius: 10px;
     padding: 6px;
     margin-bottom: 10%;
     width: 90%;
-    color: #36BAFE;
+    color: #208FD3;
     font-size: 20px;
+}
+
+input[type=password] {
+    font: small-caption;
+    font-size: 25px;
 }
 
 /* Меню */
 
 
 .menu {
-    background-color: #36BAFE;
+    background-color: #208FD3;
     padding: 10px;
     position: fixed;
     width: 100%;
     top: 90%;
+    display: flex;
 }
 
 .menu img{
-    margin-left: 19px;
+    margin-left: 25px;
 }
 
 
@@ -98,12 +104,12 @@ input[type=text], input[type=password] {
 
 
 .box-Services {
-    display: block;
+    display: none;
 }
 
 
 h1 {
-    color: #36BAFE;
+    color: #208FD3;
     margin-bottom: 20px;
     margin-top: 100px;
     margin-left: 30px;
@@ -124,7 +130,7 @@ h1 {
 }
 
 .services-text-btn {
-    color: #36BAFE;
+    color: #208FD3;
 }
 
 
@@ -134,7 +140,7 @@ h1 {
     border: none;
     font-size: 16px;
     color: #ffffff;
-    background-color: #36BAFE;
+    background-color: #208FD3;
 }
 
 .srv-btn-top {
@@ -165,6 +171,10 @@ h1 {
     margin-left: 45px;
 }
 
+.si-left {
+    margin-left: 70px;
+}
+
 
 
 /* Профіль */
@@ -174,7 +184,7 @@ h1 {
 }
 
 .info {
-    background-color: #36BAFE;
+    background-color: #208FD3;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -182,4 +192,50 @@ h1 {
     border-radius: 25px;
     color: #FFFFFF;
     font-size: 16px;
+}
+
+
+
+/* Доки */
+.Docs {
+    display: none;
+}
+
+#display-image {
+    width: 90vw;
+    height: 60vh;
+    border: 1px solid #208FD3;
+    background-position: center;
+    background-size: cover;
+}
+
+.input-imege {
+    margin: 10px 20px;
+}
+
+/* Замовлення */
+.Order {
+    display: block;
+}
+
+.infoADD .info  {
+    margin-top: 20px;
+}
+
+
+/* Фото */
+.Foto {
+    display: none;
+}
+
+#display-image1 {
+    width: 90vw;
+    height: 60vh;
+    border: 1px solid #208FD3;
+    background-position: center;
+    background-size: cover;
+}
+
+.input-imege1 {
+    margin: 10px 20px;
 }

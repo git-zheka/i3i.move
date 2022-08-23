@@ -17,25 +17,24 @@
 <body>
 
 <div class="menu">
-    <img src="img/Іконка послуги.svg" alt="">
-    <img src="img/ІконкаДокументи.svg" alt="">
-    <img src="img/ІконкаДодати.svg" alt="">
-    <img src="img/ІконкаЗамовлення.svg" alt="">
-    <img src="img/ІконкаАк.svg" alt="">
+    <div onClick="Services()"> <img src="img/Іконка послуги.svg"> </div> 
+    <div onClick="Docs()"> <img src="img/ІконкаДокументи.svg"> </div> 
+    <div onClick="Foto()"> <img src="img/foto.svg"> </div>
+    <div onClick="Order()"> <img src="img/ІконкаЗамовлення.svg"> </div>
+    <div onClick="Account()"><img src="img/ІконкаАк.svg"> </div>
 </div>
 
 
-<div class="box-Services">
+<div class="box-Services" id="servicesID">
     <h1>Послуги</h1>
 
     <div class="service1">
         <div class="services-text-btn">
             <h2>Оцінка збитку</h2>
-            <button class="srv-btn-top">Замовити</button><br>
-            <button class="srv-btn2-top">Дитальніше</button>
+            <button class="srv-btn-top" onclick="Save()">Замовити</button><br>
         </div>
         
-        <div class="services-icon">
+        <div class="services-icon si-left">
             <img src="img/Оцінка збитку.svg" alt="">
         </div>
 
@@ -46,7 +45,6 @@
         <div class="services-text-btn">
             <h2>Косметичний ремонт, та ремонт меблів</h2>
             <button class="srv-btn-top">Замовити</button><br>
-            <button class="srv-btn2-top">Дитальніше</button>
         </div>
         
         <div class="services-icon">
@@ -60,7 +58,6 @@
         <div class="services-text-btn">
             <h2>Ремонт сантехніки та електрики</h2>
             <button class="srv-btn-top">Замовити</button><br>
-            <button class="srv-btn2-top">Дитальніше</button>
         </div>
         
         <div class="services-icon">
@@ -73,7 +70,6 @@
         <div class="services-text-btn">
             <h2>Договори, юридична консультація</h2>
             <button class="srv-btn-top">Замовити</button><br>
-            <button class="srv-btn2-top">Дитальніше</button>
         </div>
         
         <div class="services-icon">
@@ -86,7 +82,6 @@
         <div class="services-text-btn">
             <h2>Вантажне перевезення речей та меблів</h2>
             <button class="srv-btn-top">Замовити</button><br>
-            <button class="srv-btn2-top">Дитальніше</button>
         </div>
         
         <div class="services-icon">
@@ -99,7 +94,6 @@
         <div class="services-text-btn">
             <h2>Клінінг</h2>
             <button class="srv-btn-top">Замовити</button><br>
-            <button class="srv-btn2-top">Дитальніше</button>
         </div>
         
         <div class="services-icon">
@@ -117,7 +111,7 @@
 
 </div>
     
-<div class="Account"> 
+<div class="Account" id="AccountID"> 
     <h1>Профіль</h1>
     <div class="info">
         <h3>Прізвище:</h3>
@@ -128,8 +122,39 @@
     </div>
 </div>
 
-.
+<div class="Docs" id="DocsID"><h1>Документи</h1>
 
+    <div class="input-imege">
+        <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
+        <div id="display-image"></div>    
+    </div>
+
+</div>
+
+<div class="Order" id="OrderID"><h1> Історія замовлень</h1>
+    
+    <div class="infoADD">
+        <div class="info">
+            <h2 >Клінінг</h1>
+            <p3> 19.08.2022 </p3>
+        </div>
+
+        <div class="info">
+            <h2 color="red">Оцінка збитку</h1>
+            <p3> 10.07.2022 </p3>
+        </div>
+    </div>
+</div>
+
+<div class="Foto" id="FotoID"><h1>Фото</h1>
+    <div class="input-imege">
+        <input type="file" id="image-input1" accept="image/jpeg, image/png, image/jpg">
+        <div id="display-image1"></div>      
+    </div>
+</div>
+
+
+<script src="JS/script.js"></script>
 </body>
 </html>
 
