@@ -13,20 +13,21 @@
 }
 
 body {
-    background: #222222;
+    background: #FAFAFA;
     overflow-x: hidden;
 }
 
 .LOGO {
     position: absolute;
-    width: 130px;
+    width: 80px;
     left: 10%;
+    top: 1%
 }
 
 /* menu */
 
 .menu {
-    background-color: #363636;
+    background-color: #37A6EA;
 }
 
 .menu a {
@@ -56,12 +57,14 @@ header {
 }
 
 .head-conteiner {
-    width: 90%;
+    margin-top: 5%;
+    width: 100%;
 }
 
 .head-conteiner h1{
-    color: #ffffff;
-    font-size: 65px;
+    color: #37A6EA;
+    font-size: 60px;
+    font-weight: 100;
 }
 
 
@@ -72,26 +75,30 @@ header {
 
 .header-img {
     position: relative;
-    margin-top: 6%;
-    margin-left: 5%;
-    width: 100%;
+    margin-top: 3%;
+    margin-right: 3%;
+    width: 500px;
 }
 
 .btn1-header {
     padding: 20px 30px;
     font-size: 20px;
     color: #ffffff;
-    background-color: #6665B1;
+    background-color: #37A6EA;
+    border-radius: 40px;
+    border: #37A6EA  solid 2px!important;
     border: none;
     margin-top: 5%;
-    margin-right: 1%;
-    border: #6665B1 solid 4px;
+    margin-right: 2%;
+    width: 230px;
 }
 
 .btn1-header:hover {
-   border: #6665B1 solid 4px;
+   border: #37A6EA  solid 2px;
    background: none;
+   color: #37A6EA;
    transition: 0.3s;
+   cursor: pointer;
 }
 
 .elips {
@@ -165,16 +172,16 @@ header {
   /* Track */
   ::-webkit-scrollbar-track {
     border-radius: 10px;
-    border: solid #6665B1 5px;
+    border: solid #37A6EA 3px;
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #FD5C70; 
+    background: #37A6EA; 
     border-radius: 10px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #b30000; 
+    background: #37A6EA; 
   }
