@@ -103,8 +103,9 @@ input[type=password] {
 /* Послуги */
 
 
+
 .box-Services {
-    display: none;
+    display: block;
 }
 
 
@@ -114,7 +115,6 @@ h1 {
     margin-top: 100px;
     margin-left: 30px;
 }
-
 
 .service1 {
     display: flex;
@@ -163,8 +163,8 @@ h1 {
 }
 
 .big-icon-car {
-    width: 200%;
-    margin-left: -55px;
+    width: 130%;
+    margin-left: -15px;
 }
 
 .icon-left {
@@ -215,7 +215,7 @@ h1 {
 
 /* Замовлення */
 .Order {
-    display: block;
+    display: none;
 }
 
 .infoADD .info  {

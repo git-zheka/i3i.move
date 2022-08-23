@@ -101,50 +101,7 @@ header {
    cursor: pointer;
 }
 
-.elips {
-    position:relative;
-    left: 60%;
-    top: 20%;
-}
 
-
-.elips1 {
-    position:absolute;
-    top:40%;
-    left: 60%;
-    z-index: -99;
-}
-
-.elips2{
-    position:absolute;
-    top:100%;
-    left: 0%;
-    z-index: -99;
-}
-
-
-.elips3 {
-    position:absolute;
-    top:210%;
-    left: 70%;
-    z-index: -99;
-}
-
-
-.elips4 {
-    position:absolute;
-    top:270%;
-    left: -10%;
-    z-index: -99;
-}
-
-.elips5 {
-    position:absolute;
-    top:300%;
-    left: 40%;
-    z-index: -99;
-    width: 60%;
-}
 
 
 .strilka {
@@ -185,3 +142,54 @@ header {
   ::-webkit-scrollbar-thumb:hover {
     background: #37A6EA; 
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .header-img {
+        display: none;
+    } 
+
+    .head-conteiner h1 {
+        font-size: 30px;
+    }
+
+    .button {
+        display: flex;
+    }
+
+    .btn1-header {
+        font-size: 15px;
+        width: auto;
+        padding: 10px;
+    }
+
+
+
+    .team h1 {
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .conteiner {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .in-container1 {
+        display: block;
+    }
+}
+  

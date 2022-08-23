@@ -78,19 +78,3 @@ image_inputq.addEventListener("change", function() {
 
 var DateToday = new Date().toLocaleDateString();
 
-
-function Save() {
-    // string p = document.getElementById("textarea").value;
-    // string Name = document.getElementById("ReviewsWriteName").value;
-  
-    let text = $("textarea").val();
-    let name = $(".ReviewsWriteName").val();
-
-    let newReview = ` <div class="info">
-    <h2> Hello </h1>
-    <p3> ${DateToday} </p3>
-  </div>`;
-  
-  $(".info").before(newReview);
-  
-  };
